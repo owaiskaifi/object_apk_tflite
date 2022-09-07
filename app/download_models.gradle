@@ -23,8 +23,8 @@ task downloadModelFile1(type: Download) {
 }
 
 task downloadModelFile2(type: Download) {
-    src 'https://tfhub.dev/tensorflow/lite-model/efficientdet/lite2/detection/metadata/1?lite-format=tflite'
-    dest project.ext.ASSET_DIR + '/efficientdet-lite2.tflite'
+    src 'https://drive.google.com/uc?export=download&id=1WtBInbJYWmWwv0B04xQyRoO3D2rMzmtM'
+    dest project.ext.ASSET_DIR + '/traffic.tflite'
     overwrite false
 }
 
