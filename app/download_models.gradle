@@ -23,7 +23,7 @@ task downloadModelFile1(type: Download) {
 }
 
 task downloadModelFile2(type: Download) {
-    src 'https://drive.google.com/uc?export=download&id=1WtBInbJYWmWwv0B04xQyRoO3D2rMzmtM'
+    src 'https://drive.google.com/uc?export=download&id=1-0Zj1HxOberaYQd_lyniNIlq7RdPiwQP'
     dest project.ext.ASSET_DIR + '/efficientdet-lite2.tflite'
     overwrite false
 }
